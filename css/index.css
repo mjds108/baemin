@@ -1,0 +1,74 @@
+@charset "utf-8";
+  /* ==== swiper 스타일 ==== */
+  #body,html {
+    background: #f6f6f6;;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+  }
+  .swiper-container {
+    width: 100%;
+    height: 182px;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;          
+  }
+  .swiper-slide img{width: 100%; height: 100%;}
+
+
+   #wrap {width: 360px; margin: 0 auto; background: #f6f6f6;}
+   #intro_back{width: 360px; height: 100%; background: url(img/intro_back.png) no-repeat center center; z-index: 0;}
+  
+  /* ==== head 스타일 ====  */
+   header{width: 100%; height: 48px;display: flex;  align-items: center;justify-content: center;border: 1px solid #f7f7f7; background: white;}
+  .head_tit{display: flex;  align-items: center;justify-content: center; }
+  .head_tit h1{font-weight: bold; font-size: 14px; margin-left: 8px;}
+  .head_tit img{width: 19px; height: 19px; margin:3px 0 0 10px;}
+  
+  /* ==== section 스타일 ====  */
+  section{ display: flex; flex-flow: row wrap; overflow: auto; border: 1px solid #f7f7f7 ;}
+
+  .food_catalog{width: 340px;height: 450px; margin: 12px auto;  border-radius: 10px; background: white;  }
+  .food_catalog ul{float: left; }
+  .food_catalog li{width:25%; height: 100%;float: left; margin: 10px 0;}
+  .food_catalog li img{ width: 100%; height: 100%; }
+
+  .location_Search {display: flex;flex-flow: row nowrap;align-items: center;justify-content: space-between;margin: 0 auto;width: 340px;height: 44px; border: 1px solid #f7f7f7 ;border-radius: 15px;  background: white;}    
+  .location_Search input{border: none; font-size: 16px; margin-left:25px;font-weight: bold;}       
+  .location_Search img{ width: 20px; height: 20px; margin-right: 20px; float: right; }
+
+  .notice{ background: #f3f3f3; overflow: hidden;}
+  .main_notice ul{ margin-top: 12px; width: 360px; height: 100%; text-align: left; font-size: 12px; }
+  .main_notice li{padding: 9px 0; border-bottom:1px solid #f7f7f7; background: white;}
+  .main_notice li a{font-size: 12px; color: #ccc;}
+  .main_notice li span{font-size: 12px; font-weight: bold; margin: 0 15px;}
+
+  .side_notice{ width: 360px; height: 40px; border-bottom: 1px solid #ccc; display: flex; flex-direction: row; justify-content: center; align-items: center; background: #f3f3f3;}
+  .side_notice li a{font-size: 5px;margin-right: 15px;}
+  
+  /* ====footer 스타일 ==== */
+  footer{margin: 15px 0 20px 15px;}
+  footer h2{font-size: 12px; font-weight: bold; color: #9e9e9e; margin: 15px 0;}
+  footer div{font-size: 8px;font-weight: 300; color: #9e9e9e; line-height: 1.5em; padding-bottom: 30px; margin-bottom: 58px;}
+
+
+  /* ==== footer 스타일==== */
+ 
+  .bottom{ position:fixed;bottom:0;z-index:1;width:360px; height: 46px; background: white; border-top: 1px solid #ccc; display: flex; flex-flow: row nowrap;}
+  .bottom ul{display: flex; flex-direction: row; margin: 0 auto; text-align: center;}
+  .bottom li{ text-align: center; width:66px; margin: 10px 0;}
+  .bottom li img{width: 20px; height: 20px;margin: 0 4.166666666666667%;}
+  .bottom li span{display:none}
+
+
+
